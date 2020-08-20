@@ -21,6 +21,10 @@ class Listing extends Controller
     public function store(Request $request)
     {
         try {
+            $request->validate([
+                'imageFile' => 'required',
+                'maker'     => 'required',
+            ]);
             $this->upload($request->all());
             return $this->ajaxSuccess('List added successfully', false, true);
         } catch (QueryException $exception) {
