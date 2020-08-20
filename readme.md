@@ -11,6 +11,6 @@
     <li> Go back to your Terminal then run "php artisan migrate", inside the root dir of the project</li>
     <li> After "Migrating everything successfully" run "php artisan serve"</li>
     <li> The project should be accessible through the browser, open your favorite browser and type http://127.0.0.1:8000 (port might be different on you machine) but the previous command should return the correct url and available port </li>
-    <li> When you accessing the application for the first time you'll land on the login page</li>
+    <li> When you access the application for the first time you'll land on the login page</li>
     <li> Right below the login form there's a link to register a new account</li>
 </ol>
