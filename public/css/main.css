@@ -1,0 +1,54 @@
+body {
+
+}
+
+.imageThumb {
+    width: 100% !important;
+    height: 200px !important;
+    object-fit: cover !important;
+}
+
+input:focus {
+    background-color: #fff !important;
+}
+
+.form-control:focus {
+    box-shadow: none !important;
+    border-bottom: 2px solid #4e555b !important;
+}
+input:-webkit-autofill {
+    color: #fff !important;
+}
+
+.logoTxt {
+    font-weight: bolder !important;
+    font-size: 17px !important;
+}
+.modal-dialog .modal-header {
+    border-radius: 0 !important;
+}
+.card {
+    border-radius: 0 !important;
+    border: 0 !important;
+}
+
+.form-control {
+    border-radius: 0 !important;
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+    border-top:  0 !important;
+    border-right:  0 !important;
+    border-left:  0 !important;
+}
+.btn {
+    border-radius: 0 !important;
+}
+
+.input-group-text {
+    border-radius: 0 !important;
+    background: none !important;
+    border-bottom: 1px solid #ced4da !important;
+    border-right: 0 !important;
+    border-left: 0 !important;
+    border-top: 0 !important;
+}
