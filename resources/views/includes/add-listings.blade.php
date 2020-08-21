@@ -40,7 +40,7 @@
                             <label> Year</label>
                         </div>
                         <div class="col-md-8">
-                            <input type="text" name="year" placeholder="2007" class="form-control">
+                            <input type="number" name="year" placeholder="2007" class="form-control">
                         </div>
                     </div>
                     <div class="form-row">
@@ -48,7 +48,7 @@
                             <label> Price</label>
                         </div>
                         <div class="col-md-8">
-                            <input type="text" name="price" placeholder="3000 000" class="form-control">
+                            <input type="number" name="price" placeholder="3000 000" class="form-control">
                         </div>
                     </div>
                 </div>
