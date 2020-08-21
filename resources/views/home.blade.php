@@ -52,7 +52,7 @@
                                     </div>
                                     <div class="col-6 col-sm-6">
                                         <a href="/delete-item/{{ $item->uuid }}"
-                                           class="btn btn-danger delete btn-block"> Remove</a>
+                                           class="btn btn-danger shadow delete btn-block"> Remove</a>
                                     </div>
                                 </div>
                             </div>

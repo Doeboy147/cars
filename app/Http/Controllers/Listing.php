@@ -45,7 +45,7 @@ class Listing extends Controller
             $fileName = Str::random(24) . '.' . $file->getClientOriginalExtension();
             $file->move($imagePath, $fileName);
             $request['image'] = $fileName;
-            $this->saveToDataBase($request);
+            return $this->saveToDataBase($request);
         } catch (FileException $exception) {
             return $this->ajaxError($exception->getMessage());
         }
