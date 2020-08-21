@@ -19,7 +19,7 @@ class HomeController extends Controller
     {
         try {
             $data['user']     = Auth::user();
-            $data['listings'] = $this->getRepository()->getPaginated();
+            $data['listings'] = $this->getRepository()->setResultOrder('created_at','DESC')->getPaginated();
             return view('home', $data);
         } catch (QueryException $exception) {
             return $this->ajaxError($exception->getMessage());
